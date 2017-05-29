@@ -4,7 +4,7 @@ If you are reading this, you are probably considering reusing some of the MATLAB
 
 The categories are:
 
-1. Scripts - These are intended to produced the figures and tables I have used in my thesis.
+1. Scripts - These are intended to produced the figures and tables I have used in my thesis. These are the files with capitalized names in the repository.
 2. Auxiliary functions - Appended to the scripts, these functions perform very specific tasks which are done many times in that script, but not in other scripts. For example, if a script makes a figure with 12 subplots, the making of the subplots is done within an auxiliary function, but no other script needs exactly the same subplot, so the function is appended to the script .m-file.
 3. Regular functions - Put in a separate folder, these are functions which are available to all the scripts (and other functions). This includes the most essential functionality, like fitting a MKLK series expansion, but also mundane tasks such as to create a LaTeX-compatible string of an arbitrary PDF name (which was used in many figures).
 
